@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>formularz</title>
 </head>
+
 <body>
-    
-    
 
-    <input type="text" name="imię" placeholder="Podaj imię" >
-    <input type="text" name="nazwisko" placeholder="Podaj nazwisko" >
-    
-    <input type="email" name="mail">
-    
-   <input type="text" name="Numer telefonu" required>
-        
-    <textarea maxlength="10000" name="message"></textarea>
-    
-        
-    
+    <form action="wyslij">
 
-    <form action ="wyslij">
-          <input type="submit" value="Wyślij"/>
-        
-        
-        
-        "brackets-eslint.gutterMarks": false,
-                 
-  </form>
+        <input type="text" name="imię" placeholder="Podaj imię">
+        <input type="text" name="nazwisko" placeholder="Podaj nazwisko">
+
+        <input type="email" name="mail" placeholder="e-mail">
+
+        <input type="value" name="Numer telefonu" placeholder="numer telefonu" required>
+
+        <textarea maxlength="10000" name="message" placeholder="Wpisz co chcesz"></textarea>
+
+
+        <input type="radio" name="gender">Mężczyzna
+        <input type="radio" name="gender">Kobieta
+
+
+
+
+
+
+        <input type="submit" value="Wyślij" />
+
+
+
+    </form>
 </body>
+
 </html>
