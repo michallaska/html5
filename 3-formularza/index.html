@@ -10,8 +10,12 @@
 
     <form action="wyslij">
 
-        <input type="text" name="imię" placeholder="Podaj imię">
+        <input type="text" name="imie" placeholder="Podaj imię">
+        
+        <label for="imie">Imię:</label><br />
+        
         <input type="text" name="nazwisko" placeholder="Podaj nazwisko">
+        <label for="nazwisko" >Nazwisko:</label> <br />
 
         <input type="email" name="mail" placeholder="e-mail">
 
@@ -19,10 +23,11 @@
 
         <textarea maxlength="10000" name="message" placeholder="Wpisz co chcesz"></textarea>
 
-        <input type="radio" name="gender">Kobieta
-        <input type="radio" name="gender">Mężczyzna
+        <label> Płeć: <input type="radio" name="gender">Kobieta </label>
+        <label> Płeć: <input type="radio" name="gender">Mężczyzna</label>
         
-
+        
+        
 
 
         <input type="submit" value="Wyślij" />
